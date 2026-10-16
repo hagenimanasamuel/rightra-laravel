@@ -1,0 +1,41 @@
+{
+  "name": "oliviuus/rightra-laravel",
+  "description": "Rightra player and upload tokens for Laravel applications.",
+  "type": "library",
+  "license": "proprietary",
+  "homepage": "https://docs.oliviuus.com/rightra/laravel",
+  "keywords": [
+    "rightra",
+    "oliviuus",
+    "laravel",
+    "drm",
+    "watermark",
+    "video"
+  ],
+  "authors": [
+    {
+      "name": "OLIVIUUS Ltd",
+      "homepage": "https://oliviuus.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+    "illuminate/view": "^10.0|^11.0|^12.0|^13.0",
+    "illuminate/http": "^10.0|^11.0|^12.0|^13.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oliviuus\\Rightra\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Oliviuus\\Rightra\\RightraServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
