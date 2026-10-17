@@ -1,6 +1,6 @@
 ﻿# Rightra for Laravel
 
-Player component and upload token helper for Rightra, the digital content protection and rights intelligence product by OLIVIUUS Ltd.
+Player component and upload token helper for Rightra by Oliviuus.
 
 ## Requirements
 
@@ -21,7 +21,6 @@ Add these to your .env:
 
 RIGHTRA_API_KEY=your-rightra-api-key
 RIGHTRA_SDK_URL=https://unpkg.com/@oliviuus/rightra-sdk@0.1.0/dist/rightra.umd.js
-RIGHTRA_BASE_URL=https://api.rightra.oliviuus.com/api/rightra
 RIGHTRA_UPLOAD_SECRET=your-upload-secret
 RIGHTRA_UPLOAD_TOKEN_TTL=900
 
